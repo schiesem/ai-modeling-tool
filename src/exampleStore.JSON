@@ -1,0 +1,94 @@
+{
+    "state": {
+        "nodes": [
+            {
+                "id": "oYhoEq",
+                "generalTestAttr": "empty",
+                "type": "ResourceNode",
+                "data": {
+                    "resContent": "empty",
+                    "resourceType": "undefined"
+                },
+                "position": {
+                    "x": -58,
+                    "y": 99
+                },
+                "width": 153,
+                "height": 108,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -58,
+                    "y": 99
+                },
+                "dragging": false
+            },
+            {
+                "id": "EMtWpi",
+                "generalTestAttr": "empty",
+                "type": "ProductNode",
+                "data": {
+                    "generalTestAttr": "empty",
+                    "prodContent": "undefinded"
+                },
+                "position": {
+                    "x": -52,
+                    "y": -92
+                },
+                "width": 143,
+                "height": 92,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": -52,
+                    "y": -92
+                },
+                "dragging": false
+            },
+            {
+                "id": "7xp94w",
+                "generalTestAttr": "empty",
+                "type": "FunctionNode",
+                "data": {
+                    "name": "undefined",
+                    "funcContent": "empty",
+                    "functionType": "Transform"
+                },
+                "position": {
+                    "x": 142,
+                    "y": -115
+                },
+                "width": 150,
+                "height": 124,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 142,
+                    "y": -115
+                },
+                "dragging": false
+            },
+            {
+                "id": "KZpZZW",
+                "generalTestAttr": "empty",
+                "type": "ResourceNode",
+                "data": {
+                    "resContent": "empty",
+                    "resourceType": "undefined"
+                },
+                "position": {
+                    "x": 143.77084351537593,
+                    "y": 103.88542175768796
+                },
+                "width": 153,
+                "height": 108,
+                "selected": false,
+                "dragging": false,
+                "positionAbsolute": {
+                    "x": 143.77084351537593,
+                    "y": 103.88542175768796
+                }
+            }
+        ],
+        "edges": [],
+        "handles": []
+    },
+    "version": 0
+}
