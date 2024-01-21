@@ -11,6 +11,7 @@ export default function ElementDataInput({ activeElementId }) {
   return (
     <div>
       <input
+        className="bg-stone-100 hover:bg-stone-200"
         type="text"
         value={store.getElementDataById(activeElementId).data.name}
         onChange={(event) => {

@@ -17,12 +17,12 @@ export default function ResourceNode({ id, type, data }) {
   }, [store.handles]);
 
   return (
-    <div className="text-center px-4 py-4 shadow-md rounded-md bg-white border-3 border-stone-400">
-      <h1 className="text-lg">Resource Node</h1>
+    <div className="w-44 h-28 shrink-0 grow-0 rounded-full text-center px-4 py-4 shadow-lg bg-sky-200 border border-stone-400">
+      <h1 className="text-lg">{data.name === undefined || data.name === "undefined" || data.name.length === 0 ? "Resource": data.name}</h1>
       <div className="text-xs italic">
+        <p>{data.resourceType === "undefined" ? "no class selected":data.resourceType}</p>
         <p>{id}</p>
         <p>{type}</p>
-        <p>{data.resourceType}</p>
       </div>
       {store.handles.map(
         (handle) =>

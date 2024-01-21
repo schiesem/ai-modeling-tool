@@ -24,6 +24,7 @@ export const RESOURCE_NODE_ATTR = {
   type: "ResourceNode",
 };
 export const RESOURCE_NODE_DATA = {
+  ...GENERAL_NODE_DATA,
   resContent: "empty",
   resourceType: "undefined",
 };
@@ -35,7 +36,7 @@ export const PRODUCT_NODE_ATTR = {
 };
 
 export const PRODUCT_NODE_DATA = {
-  ...GENERAL_NODE_ATTRIBUTS,
+  ...GENERAL_NODE_DATA,
   prodContent: "undefinded",
 };
 

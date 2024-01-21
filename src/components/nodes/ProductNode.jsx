@@ -18,12 +18,11 @@ export default function ProductNode({ id, type, data }) {
   }, [store.handles]);
 
   return (
-    <div className="text-center px-4 py-4 shadow-md rounded-lg bg-white border-3 border-stone-400">
-      <h1 className="text-lg">Product Node</h1>
+    <div className="w-28 h-28 shrink-0 grow-0 rounded-full text-center px-4 py-4 shadow-lg bg-rose-200 border border-stone-400">
+      <h1 className="text-lg">{data.name === undefined || data.name === "undefined" || data.name.length === 0 ? "Product": data.name}</h1>
       <div className="text-xs italic">
         <p>{id}</p>
         <p>{type}</p>
-        <p>{data.content1}</p>
       </div>
       {store.handles.map(
         (handle) =>

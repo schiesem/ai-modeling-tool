@@ -24,7 +24,7 @@ export default function CommunicationEdge({
             transform: `translate(-50%, -50%) translate(${labelX}px, ${labelY}px)`,
             pointerEvents: "all",
           }}
-          className="text-center text-xs px-4 py-4 shadow-md rounded-md bg-white border-3 border-stone-400"
+          className="text-center text-xs px-4 py-4 shadow-md rounded-md bg-stone-100/60 border-3 border-stone-400"
         >
           <p className="text-base">Communication</p>
           <p className="text-xs italic">{id}</p>

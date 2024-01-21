@@ -1,7 +1,18 @@
+import { useStore } from "../../store";
+import InformationPresenter from "./panelElements/InformationPresenter";
+
+const selector = (store) => ({ getActiveElementId: store.getActiveElementId });
+
 export default function ProductFlowEdgePanel() {
+  const store = useStore(selector);
+  const activeElementId = store.getActiveElementId();
+
   return (
-    <div>
-      <p>I am a ProductFlowEdgePanel Panel</p>
-    </div>
+    <>
+      <p className="text-center">-- Flow Edge Selected --</p>
+      <div className="flex flex-col space-y-1 text-left pt-2 pb-2">
+      <InformationPresenter activeElementId={activeElementId}/>
+      </div>
+    </>
   );
 }

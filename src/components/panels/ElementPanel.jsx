@@ -35,7 +35,7 @@ const elementPanelSelector = (elementTyp) => {
         <DefaultPanel />;
     }
   } else {
-    return <h1>No Element Selected</h1>;
+    return <DefaultPanel />;
   }
 };
 
@@ -48,8 +48,10 @@ export default function ElementPanel() {
     activeElementId && store.getElementDataById(activeElementId).type;
   return (
     <Panel position="top-right">
-      <div className="text-left px-4 py-4 shadow-md rounded-xs bg-white border-3 border-stone-400">
-        <h1>Configure selected elements:</h1>
+      <div className="px-4 py-4 shadow-md rounded-md bg-white border border-stone-400">
+        <h1 className="text-xl underline decoration-1">
+          Element Configuration Panel:
+        </h1>
         {elementPanelSelector(activeElementType)}
       </div>
     </Panel>

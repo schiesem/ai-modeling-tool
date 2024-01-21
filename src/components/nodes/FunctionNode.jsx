@@ -17,13 +17,12 @@ export default function FunctionNode({ id, type, data }) {
   }, [store.handles]);
 
   return (
-    <div className="text-center px-4 py-4 shadow-md rounded-md bg-white border-3 border-stone-400">
-      <h1 className="text-lg">Function Node</h1>
+    <div className="w-36 h-28 shrink-0 grow-0 rounded-none text-center px-4 py-4 shadow-lg  bg-lime-200 border-3 border border-stone-400">
+      <h1 className="text-lg">{data.name === undefined || data.name === "undefined" || data.name.length === 0 ? "Function": data.name}</h1>
       <div className="text-xs italic">
-        <p>{data.name}</p>
+        <p>{data.functionType === "undefined" ? "no class selected":data.functionType}</p>
         <p>{id}</p>
         <p>{type}</p>
-        <p>{data.functionType}</p>
       </div>
       {store.handles.map(
         (handle) =>

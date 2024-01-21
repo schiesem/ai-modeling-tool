@@ -2,7 +2,7 @@ import { useStore } from "../../../store";
 
 const selector = (store) => ({
   getActiveElementId: store.getActiveElementId,
-  getElementDataById: store.getElementDataById,
+  getElementDataById: store.getElementDataById,  
   setNodeType: store.updateNode,
   setEdgeType: store.updateEdge,
 });
