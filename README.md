@@ -16,7 +16,7 @@ For further details to the underlying method DMME please read the [conference pa
 ## AI-Modeling-Tool
 The tool allows an interactive modeling of ai applications for automation systems based on the graphical modeling language of [Schieseck et al.](https://github.com/schiesem/GML-AIAAS). The graphical user interface of the tool is shown in Fig. 1. The buttons *Create Function*, *Create Product* and *Create Resource* allow to add elements to the interface. An element can be selected with a mouse click. A selected Element can be configured via the *Configuration menu* in the top right corner. The four buttons in the configuration menu can be used to add interfaces to the selected element at the corresponding position *left, right, top, bot*. Different elements can be connected to each other via these interfaces using drag-and-drop.
 
-| <img src="./figures/modeling-tool.png"  width="750" >|
+| <img src="./figures/modeling-tool.PNG"  width="750" >|
 |:--:|
 | Fig. 1: Graphical Use-Interface with an Example Use-Case |
 
