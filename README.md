@@ -20,7 +20,7 @@ The tool allows an interactive modeling of ai applications for automation system
 |:--:|
 | Fig. 1: Graphical Use-Interface with an Example Use-Case |
 
-The functions of the tool are explained in detail under [USAGE](https://github.com/schiesem/GML-AIAAS/USAGE.md).
+The functions of the tool are explained in detail under [USAGE](USAGE.md).
 
 
 ## Local Deployment and Setup
