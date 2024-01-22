@@ -16,12 +16,33 @@ For further details to the underlying method DMME please read the [conference pa
 ## AI-Modeling-Tool
 The tool allows an interactive modeling of ai applications for automation systems based on the graphical modeling language of [Schieseck et al.](https://github.com/schiesem/GML-AIAAS). The graphical user interface of the tool is shown in Fig. 1. The buttons *Create Function*, *Create Product* and *Create Resource* allow to add elements to the interface. An element can be selected with a mouse click. A selected Element can be configured via the *Configuration menu* in the top right corner. The four buttons in the configuration menu can be used to add interfaces to the selected element at the corresponding position *left, right, top, bot*. Different elements can be connected to each other via these interfaces using drag-and-drop.
 
-| <img src="./figures/modeling-tool.png"  width="750" >|
+| <img src="figures/modeling-tool.png"  width="750" >|
 |:--:|
 | Fig. 1: Graphical Use-Interface with an Example Use-Case |
 
-The functions of the tool are explained in detail under [USAGE](https://github.com/schiesem/GML-AIAAS/USAGE.md).
+## Usage and Functions of the AI-Modeling-Tool
+In the following the functions of the tool are presented.
 
+### Creating Elements
+You can use the three Buttons up left in the so called "creation panel" to create new Elements.
+
+| <img src="figures/create-elements.gif"  width="750" >|
+|:--:|
+| Fig. 1: Creation of new Elements |
+
+### Configure Elements
+You can use the so called "configuration panel" up right to configure the created elements. Depending on the selected element, different configuration possible configuration elements are changing.
+
+| <img src="figures/configure-elements.gif"  width="750" >|
+|:--:|
+| Fig. 2: Configuration of created elements |
+
+### Connect Elements
+You can connected different elements by first adding a handle as interface and then connecting via drag-and-drop. Depending on the target and source element type (Function, Product, Resource) a different connection is automatically chosen.
+
+| <img src="figures/connect-elements.gif"  width="750" >|
+|:--:|
+| Fig. 3: Configuration of created elements |
 
 ## Local Deployment and Setup
  Node.JS is required for deploying and using the AI-Modeling-Tool. The modeling tool is based on React and [ReactFlow](https://reactflow.dev/). It is also recommended to use an IDE such as Visual Studio Code to execute the commands for installing and starting in development mode. We recommend the following steps for the local deployment:
@@ -35,7 +56,7 @@ The functions of the tool are explained in detail under [USAGE](https://github.c
    This will install all software-side dependencies.
 4.  To start, execute the command in the terminal:
 
-   `npm run dev-local`  
+   `npm run dev`  
 5. By calling up
 
    `localhost:5173`
