@@ -57,7 +57,6 @@ You can connected different elements by first adding a handle as interface and t
 
    `npm install`
 
-   
 4.  To start the ai-modeling-tool, execute the command in the terminal:
 
    `npm run dev`  
