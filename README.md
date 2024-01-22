@@ -1,4 +1,8 @@
 # Web-based Tool for Mode-Based Engineering of AI-Applications for Automation Systems
+The ai-modeling-tool is an interactive, easy-to-use and open source web-tool to graphical model ai applications for automations systems conceptually.
+
+> [!CAUTION]
+> This project is still in very early stages of development. Use at your own risk.
 
 ## Motivation and Introduction
 Accordingly, there is a lack of a solution approach that allows industry to independently model AI applications for automation systems, including the underlying manufacturing or procedural process, and to coordinate their development on the basis of the model.
@@ -49,16 +53,18 @@ You can connected different elements by first adding a handle as interface and t
 
 1. Clone or download this repository. If you have downloaded the repository, you must unpack the zip-compressed file on your local storage.
 2. Navigate in the Terminal to the root folder.
-3. To install, execute the command:
+3. To install the required dependencies, execute the command:
 
    `npm install`
 
-   This will install all software-side dependencies.
-4.  To start, execute the command in the terminal:
+   
+4.  To start the ai-modeling-tool, execute the command in the terminal:
 
    `npm run dev`  
-5. By calling up
+   
+5. You have access to the ai-modeling-tool user interface in the web-browser with:.
 
    `localhost:5173`
 
-   in your web browser, you have access to the ai-modeling-tool user interface.
+
+   
