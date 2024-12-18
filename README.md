@@ -65,5 +65,24 @@ You can connected different elements by first adding a handle as interface and t
 
    `localhost:5173`
 
+## How to cite
+
+
+This tool has been published in a conference paper. You can find this paper on [ResearchGate](https://www.researchgate.net/publication/387162832_Webbasiertes_Werkzeug_fur_das_modellbasierte_Engineering_von_KI-Anwendungen_fur_Automatisierungssysteme) or [here](https://opendata.uni-halle.de//handle/1981185920/118011). Feel free to contact us via ResearchGate in case you have questions about the paper.
+In case you want to use this tool in your own research, please cite as:
+```
+M. Schieseck, P. Topalis, A. Fay: Webbasiertes Werkzeug für das modellbasierte Engineering von KI-Anwendungen für Automatisierungssysteme. In:
+2024 18. Fachtagung Entwurf komplexer Automatisierungssysteme (EKA). Magdeburg, DE, 2024.
+```
+If you are using a BiBTex-file, you can copy the following:
+```
+@inProceedings{schieseck2024ai-modeling-tool,
+  author={Schieseck, Marvin and Topalis, Philip and Fay, Alexander},
+  booktitle={18. Fachtagung Entwurf komplexer Automatisierungssysteme (EKA)},
+  title={Webbasiertes Werkzeug für das modellbasierte Engineering von KI-Anwendungen für Automatisierungssysteme},
+  address = {Magdeburg, DE},
+  year={2024}
+}
+```
 
    
