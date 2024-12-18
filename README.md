@@ -72,7 +72,7 @@ This tool has been published in a conference paper. You can find this paper on [
 In case you want to use this tool in your own research, please cite as:
 ```
 M. Schieseck, P. Topalis, A. Fay: Webbasiertes Werkzeug für das modellbasierte Engineering von KI-Anwendungen für Automatisierungssysteme. In:
-2024 18. Fachtagung Entwurf komplexer Automatisierungssysteme (EKA). Magdeburg, DE, 2024.
+18. Fachtagung Entwurf komplexer Automatisierungssysteme (EKA). Magdeburg, DE, 2024.
 ```
 If you are using a BiBTex-file, you can copy the following:
 ```
